@@ -306,8 +306,14 @@ gh pr create --title "feat(phase-NN/MM): add <slug>" --body "<5-line summary>"
 
 ---
 
-## Learner Progress & Auto-Push Prompt
+## Learner Workflow & Git Synchronization
 
+### 1. Daily Upstream Sync
+- When an agent first interacts with the repository on a given day, pull any updates/new lessons from the original repository:
+  `git pull upstream main --rebase`
+- If there are conflicts or uncommitted changes, inform the learner before proceeding.
+
+### 2. Learner Progress & Auto-Push Prompt
 Whenever `LEARNING.md` or any lesson exercise in `phases/` is updated after completing a lesson or quiz:
 1. Notify the learner that their progress has been logged in `LEARNING.md`.
 2. Explicitly ask the user:
