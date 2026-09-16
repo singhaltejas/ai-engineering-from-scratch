@@ -48,5 +48,6 @@ Career Change (SDET right now) and also understand it as I use it daily, to buil
 ## Progress log
 | Date | Lesson | Quiz | Note |
 |------|--------|------|------|
+| 2026-09-15 | 01/01 | 3/3 | Mastered vectors, dot product similarity, @ matrix multiplication, linear independence, and LoRA low-rank intuition. |
 
 ## Review queue
