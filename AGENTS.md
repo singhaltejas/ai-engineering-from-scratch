@@ -306,4 +306,15 @@ gh pr create --title "feat(phase-NN/MM): add <slug>" --body "<5-line summary>"
 
 ---
 
-Last reviewed: 2026-05-27.
+## Learner Progress & Auto-Push Prompt
+
+Whenever `LEARNING.md` or any lesson exercise in `phases/` is updated after completing a lesson or quiz:
+1. Notify the learner that their progress has been logged in `LEARNING.md`.
+2. Explicitly ask the user:
+   > *"Would you like me to commit and push your latest progress to GitHub now?"*
+3. When the user confirms, stage and commit the changes using the conventional commit format:
+   `git add LEARNING.md <any-exercise-files> && git commit -m "docs(progress): complete Phase <X> Lesson <Y>" && git push origin main`
+
+---
+
+Last reviewed: 2026-09-15.
