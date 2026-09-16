@@ -16,6 +16,11 @@ Career Change (SDET right now) and also understand it as I use it daily, to buil
 - Entry point: Phase 1: Math Foundations
 - Pace: ~2 h/week
 
+## Learner Preferences & Baseline
+- Background: SDET (Software Development Engineer in Test).
+- Baseline: Basic Python and basic arithmetic ONLY. Zero prior advanced math or ML assumed.
+- Instruction style: Intuition-first, define every term/operator before use, step-by-step small concrete examples, bite-sized interactive pacing.
+
 ## Path
 | Phase | Name | Status | Est. hours |
 |-------|------|--------|------------|
