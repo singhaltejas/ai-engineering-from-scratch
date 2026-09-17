@@ -49,5 +49,6 @@ Career Change (SDET right now) and also understand it as I use it daily, to buil
 | Date | Lesson | Quiz | Note |
 |------|--------|------|------|
 | 2026-09-15 | 01/01 | 3/3 | Mastered vectors, dot product similarity, @ matrix multiplication, linear independence, and LoRA low-rank intuition. |
+| 2026-09-16 | 01/02 | In Progress | Completed concept walkthrough for Vectors, Matrices & Operations (dimensions, element-wise vs matmul @, transpose, broadcasting, identity, det/inverse, neural net forward pass relu(W @ x + b)). Ready for Lesson 02 Quiz. |
 
 ## Review queue
